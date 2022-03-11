@@ -1,0 +1,210 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(35deg, hsl(0, 0%, 0%), hsl(348, 97%, 63%, 0.65),hsl(0, 0%, 0%), hsl(230, 96%, 62%, 0.65), hsl(0, 0%, 0%));
+    background-size: 500% 500%;
+    animation: colors 5s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+.container {
+    background-color: #121212;
+    text-align: center;
+    margin: -30px auto;
+    padding: 20px;
+    min-height: 100vh;
+    width: 80vw;
+}
+
+.page-title {
+    color: #f1f1f1;
+    margin: 0 0 5px;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    text-transform: uppercase;
+}
+
+.page-subtitle {
+    color: #f1f1f1;
+    margin-top:5px;
+}
+
+.title-sections {
+    color: #f1f1f1;
+    font-size: 1.7rem;
+}
+
+.page-logo {
+    position: absolute;
+    width: 140px;
+    top: 40px;
+    left: 10px;
+}
+
+.alura-logo {
+    position: absolute;
+    width: 80px;
+    top: 40px;
+    right: 40px;
+}
+
+/**/
+#filmesUsuario, #listaFilmesInternos {
+    display:inline-flex;
+    max-width: 80vw;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 0px;
+    width: 250px;
+    color: #ff2200;
+  }
+  
+  div.box:hover {
+    opacity: 0.5;
+  }
+  
+  div.box-text {
+    padding: 10px;
+  }
+  
+  div.box img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+    
+/**/
+
+.form-wrapper {
+    margin: 0 0 15px;
+}
+
+.form-wrapper input {
+    margin-top: .5vh;
+    padding: .5vh 1vw;
+    width: 15vw;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #000000;
+    text-align: center;
+
+}
+
+.adicionar-filme {
+    margin-top: .5vh;
+    width: 12vw;
+    padding: .8vh 2vw;
+    border: none;
+    border-radius: 15px;
+    transition: .3s;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #f1f1f1;
+    background: linear-gradient(35deg, hsl(0, 0%, 0%), hsl(348, 97%, 63%, 0.65),hsl(0, 0%, 0%), hsl(230, 96%, 62%, 0.65), hsl(0, 0%, 0%));
+    background-size: 500% 500%;
+    animation: colors 5s ease infinite;
+}
+
+@keyframes button {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+.adicionar-filme:hover {
+    opacity: .7;
+}
+
+.adicionar-filme:active {
+    opacity: .6;
+    transform: scale(.9);
+    transition: .4s all;
+}
+
+
+@media (max-width: 500px) {
+
+    .page-logo {
+        display: none;
+    }
+
+    .alura-logo {
+        right: 38vw;
+        top: 20px;
+    }
+
+    .page-title {
+        position: absolute;
+        top: 10vh;
+        left: 30vw;
+        font-size: 2rem;
+    }
+    
+    .page-subtitle {
+        position: absolute;
+        top: 16vh;
+        left: 15vw;
+    }
+
+    .form-wrapper {
+        position: absolute;
+        top: 20vh;
+        left: 25vw;
+    }
+
+    .form-wrapper input {
+        padding: .5vh 20vw;
+        font-size: 1rem;
+    }
+
+    .adicionar-filme {
+        margin-top: .5vh;
+        width: 50vw;
+        padding: .8vh 2vw;
+        
+    }
+
+    #listaFilmes img, #listaFilmesInternos img {
+        margin: 0px;
+        padding-top: 34vh;
+        max-height: 350px;
+        transition: .5s;
+    }
+
+    .title-sections {
+        display: none;
+    }
+}
