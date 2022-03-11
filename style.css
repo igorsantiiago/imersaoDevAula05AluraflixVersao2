@@ -28,6 +28,7 @@ body {
     padding: 20px;
     min-height: 100vh;
     width: 80vw;
+    flex-wrap:wrap;
 }
 
 .page-title {
@@ -67,6 +68,7 @@ body {
 #filmesUsuario, #listaFilmesInternos {
     display:inline-flex;
     max-width: 80vw;
+    flex-wrap: wrap;
 }
 
 img {
@@ -77,7 +79,7 @@ img {
   .box {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    margin: 30px;
+    margin: 28.6px;
     border-radius: 10px;
     padding: 0px;
     width: 250px;
