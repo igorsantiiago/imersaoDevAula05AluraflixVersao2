@@ -22,3 +22,5 @@ Links extras
 
 - Iteradores com Javascript: https://www.youtube.com/watch?v=c8Zac9hWbs8
 - Refazendo código da Aula 01 em Python: https://www.youtube.com/watch?v=DsFb24TgJ0c
+
+Link do projeto hospedado no GitHub: https://igorsantiiago.github.io/-imersaoDevAula05AluraflixVersao2/
